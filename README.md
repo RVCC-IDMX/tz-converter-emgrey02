@@ -10,7 +10,7 @@ node tz [time zone] [--options]
 
 ## Command:
 
-The user may enter one command: a time zone. A List of time zones can be retrieved by adding the option [--all](###--all)
+The user may enter one command: a time zone. A List of time zones can be retrieved by adding the option [--all](#--all)
 
 ```
 tz [timezone] set a timezone to convert to
@@ -46,7 +46,7 @@ In Los Angeles it is Wednesday, October 13th, 2021 at 12:03:44 PM
 
 ### --all
 
-This option does not require that a time zone is entered as a command. It will return a table with all the time zones available to use as a command.
+This option does not require a time zone as a command. It will return a table with all the time zones available to use as a command.
 
 ```
 $ node tz --all
@@ -54,7 +54,7 @@ $ node tz --all
 
 ### --country
 
-This option does not require a time zone as a command. It does require a country specified by two capital letters after the option, however.
+This option does not require a time zone as a command. It does, however, require a country specified by two capital letters after the option. It will return a table of time zones available within the specified country.
 
 ```
 $ node tz --country US
