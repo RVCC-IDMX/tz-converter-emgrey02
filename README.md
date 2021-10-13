@@ -54,7 +54,7 @@ $ node tz --all
 
 ### --country
 
-This option does not require a time zone as a command. It does, however, require a country specified by two capital letters after the option. It will return a table of time zones available within the specified country.
+This option does not require a time zone as a command. It does, however, require a country specified by two capital letters after the option. It will return a table of time zones available within the specified country to be used as a command.
 
 ```
 $ node tz --country US
